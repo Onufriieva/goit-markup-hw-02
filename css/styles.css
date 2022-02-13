@@ -1,0 +1,235 @@
+:root {
+    --main-font: 'Roboto';
+    --main-font-color: #757575;
+    --title-font: #212121;
+    --main-background-color: #FFFFFF;
+    --background-color: #E5E5E5;
+    --background: #F5F4FA;
+    --background-footer: #2F303A;
+    --button-link-color: rgba(33, 150, 243, 1);
+    --adress-color: #FFFFFF;
+
+
+}
+
+/*body*/
+
+body {
+    font-family: 'Roboto', 'Rileway' sans-serif;
+    
+    color: var(--main-font-color);
+    background-color: #FFFFFF;
+    
+}
+
+/*Header*/
+
+.site-header {
+    background-color: var(--main-background-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.2em;
+}
+
+.link-logo {
+    font-family: 'Rileway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.72;
+    letter-spacing: 0.3em;
+}
+
+
+.link-nav {
+
+    color: rgba(33, 33, 33, 1);
+
+}
+
+.link-nav:focus {
+    color: var(--button-link-color);
+}
+
+.link-contacts {
+    color: rgba(117, 117, 117, 1);
+
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--button-link-color);
+}
+
+/*Hero*/
+.hero-title {
+    background-color: var(--background-footer);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.6em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button-hero {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.6em;
+   background-color: var(--button-link-color);
+   color: rgba(255, 255, 255, 1);
+   cursor: pointer;
+}
+
+/*Peculiarities*/
+.peculiarities {
+    background-color: var(--background-color);
+}
+
+.peculiarities-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.3em;
+color: rgba(33, 33, 33, 1);
+}
+
+.peculiarities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 00.3em;
+    color: rgba(117, 117, 117, 1);
+}
+
+
+/*Works*/
+
+.works {
+    background-color: var(--background-color);
+}
+
+.works-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.3em;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+/*Our team*/
+
+.team {
+    background-color: var(--background);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.3em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.team-list-item {
+    background-color: var(--main-background-color);
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.3em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.team-list-text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.3em;
+    color: rgba(33, 33, 33, 1);
+}
+/*Footer*/
+
+.footer-section {
+    background-color: var(--background-footer);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-adress {
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    }
+
+    .footer-contact{
+    color: rgba(255, 255, 255, 0.6);
+    
+}    
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--button-link-color);
+}
+
+
+/*Portfolio*/
+
+/*Filters*/
+
+.main-section {
+    background-color: var(--background-color);
+}
+
+.primary-button {
+background-color: var(--button-link-color);
+color: rgb(255, 255, 255, 1);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.3em;
+cursor: pointer;
+}
+
+.secondary-button {
+  background-color: rgba(245, 244, 250, 1);
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+}
+
+
+.list-cards-item {
+    background-color: var(--main-background-color);
+}
+
+.link:focus {
+color: var(--button-link-color);
+}
+
+.link-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.6em;
+color: rgba(33, 33, 33, 1);
+}
+
+.link-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.3em;
+    color: rgba(117, 117, 117, 1);
+}
+
+.link-text-main {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.3em;
+    color: rgba(117, 117, 117, 1);
+}
