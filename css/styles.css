@@ -32,8 +32,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.2em;
-
+    
 }
 
 
@@ -42,7 +41,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 0.72;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.05em;
+    
     text-decoration: none;
 }
 
@@ -60,18 +60,24 @@ body {
 .link-nav {
 
     color: var(--title-font);
+    letter-spacing: 0.02em;
 
 }
 
 .link-nav:focus {
     color: var(--button-link-color);
+   
 }
 .link-current {
     color: var(--button-link-color);
+    letter-spacing: 0.02em;
+    
 }
+
 
 .link-contacts {
     color: var(--main-font-color);
+    letter-spacing: 0.02em;
 
 }
 
@@ -84,6 +90,7 @@ body {
 .hero {
     background-color: var(--background-footer);
     font-family: 'Roboto';
+    text-align: center;
 }
 
 .hero-title {
@@ -91,7 +98,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.6em;
+    letter-spacing: 0.17em;
     color: var(--background-header);
     text-align: center;
 }
@@ -100,10 +107,11 @@ body {
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
-   letter-spacing: 0.6em;
+   letter-spacing: 0.06em;
    background-color: var(--button-link-color);
    color: var(--background-header);
    cursor: pointer;
+   
 
 }
 
@@ -118,14 +126,14 @@ body {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.3em;
+letter-spacing: 0.03em;
 color: var(--title-font);
 }
 
 .peculiarities-text {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 00.3em;
+    letter-spacing: 0.03em;
     color: var(--main-font-color);
 }
 
@@ -138,7 +146,7 @@ color: var(--title-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.07em;
     color: var(--title-font);
     text-align: center;
 }
@@ -157,7 +165,7 @@ color: var(--title-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.07em;
     color: var(--title-font);
     text-align: center;
 }
@@ -169,7 +177,7 @@ color: var(--title-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     color: var(--title-font);
     text-align: center;
 }
@@ -178,7 +186,7 @@ color: var(--title-font);
 .team-list-text {
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     color: var(--main-font-color);
     text-align: center;
 }
@@ -221,14 +229,13 @@ color: var(--title-font);
 }
 
 
-
 .primary-button {
 background-color: var(--button-link-color);
 color: var(--background-header);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-letter-spacing: 0.3em;
+letter-spacing: 0.03em;
 cursor: pointer;
 }
 
@@ -238,7 +245,7 @@ cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -270,20 +277,20 @@ color: var(--button-link-color);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-letter-spacing: 0.6em;
+letter-spacing: 0.07em;
 color: var(--title-font);
 }
 
 .link-text {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     color: var(--main-font-color);
 }
 
 .link-text-main {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     color: var(--main-font-color);
 }
