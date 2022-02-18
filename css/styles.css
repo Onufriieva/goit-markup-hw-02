@@ -57,6 +57,10 @@ body {
 }
 
 
+.nav-list {
+    list-style: none;
+}
+
 .link-nav {
 
     color: var(--title-font);
@@ -74,6 +78,10 @@ body {
     
 }
 
+
+.contacts {
+    list-style: none;
+}
 
 .link-contacts {
     color: var(--main-font-color);
@@ -100,10 +108,11 @@ body {
     line-height: 1.36;
     letter-spacing: 0.17em;
     color: var(--background-header);
-    text-align: center;
+    
 }
 
 .button-hero {
+
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -128,6 +137,10 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--title-font);
+}
+
+.peculiarities-list {
+    list-style: none;
 }
 
 .peculiarities-text {
@@ -159,7 +172,9 @@ color: var(--title-font);
 }
 
 
-
+.team-list{
+    list-style: none;
+}
 
 .team-title {
     font-weight: 700;
@@ -200,6 +215,10 @@ color: var(--title-font);
     letter-spacing: 0.03em;
 }
 
+.footer-list {
+    list-style: none;
+}
+
 .footer-adress {
     font-style: normal;
     color: var(--background-header);
@@ -228,6 +247,9 @@ color: var(--title-font);
     background-color: var(--background-color);
 }
 
+.list-btn {
+    list-style: none;
+}
 
 .primary-button {
 background-color: var(--button-link-color);
@@ -263,7 +285,9 @@ cursor: pointer;
 
 /*Cards*/
 
-
+.list-cards {
+    list-style: none;
+}
 
 .link {
     text-decoration: none;
