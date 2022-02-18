@@ -59,12 +59,14 @@ body {
 
 .nav-list {
     list-style: none;
+    text-decoration: none;
 }
 
 .link-nav {
 
     color: var(--title-font);
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 
@@ -75,6 +77,7 @@ body {
 .link-current {
     color: var(--button-link-color);
     letter-spacing: 0.02em;
+    text-decoration: none;
     
 }
 
@@ -86,6 +89,7 @@ body {
 .link-contacts {
     color: var(--main-font-color);
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 
@@ -153,7 +157,9 @@ color: var(--title-font);
 
 /*Works*/
 
-
+.works-list {
+    list-style: none;
+}
 
 .works-title {
     font-weight: 700;
@@ -221,12 +227,13 @@ color: var(--title-font);
 
 .footer-adress {
     font-style: normal;
-    color: var(--background-header);
+    color: var(--background-header);    
     }
 
 
     .footer-contact{
     color: var(--footer-contacts);
+    text-decoration: none;
     
 }    
 
