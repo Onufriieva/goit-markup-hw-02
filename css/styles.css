@@ -3,13 +3,14 @@
     --main-font-color: rgba(117, 117, 117, 1);
     --title-font: rgba(33, 33, 33, 1);
     --background-header: rgba(255, 255, 255, 1);
-    --background-color: #E5E5E5;
+ 
     --background-team: rgba(245, 244, 250, 1);
     --background-footer: rgba(47, 48, 58, 1);
     --button-link-color: rgba(33, 150, 243, 1);
-    --footer-contacts: rgba (255, 255, 255, 0.6)
+    --button-link-hover: rgba(24, 140, 232, 1);
+    --footer-contacts: rgba(255, 255, 255, 0.6);
    
-
+    --primary-botton-bcg:
 
 }
 
@@ -70,6 +71,7 @@ body {
 
 }
 
+.link-nav:hover,
 .link-nav:focus {
     color: var(--button-link-color);
    
@@ -125,12 +127,13 @@ body {
    color: var(--background-header);
    cursor: pointer;
    
-
 }
 
-.main-container{
-    background-color:var(--background-color);
+.button-hero:hover,
+.button-hero:focus {
+    background-color: var(--button-link-hover);
 }
+
 
 /*Peculiarities*/
 
@@ -250,17 +253,15 @@ color: var(--title-font);
 
 /*Filters*/
 
-.main-section {
-    background-color: var(--background-color);
-}
+
 
 .list-btn {
     list-style: none;
 }
 
-.primary-button {
-background-color: var(--button-link-color);
-color: var(--background-header);
+.item-button {
+background-color: var(--background-team);
+color: var(--title-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -268,26 +269,11 @@ letter-spacing: 0.03em;
 cursor: pointer;
 }
 
-.secondary-button {
-  background-color: var(--background-team);
-  color: var(--title-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-}
 
-.primary-button:hover,
-.primary-button:focus {
-    color: var(--button-link-color);
-}
-
-
-.secondary-button:hover,
-.secondary-button:focus {
-  
-    color: var(--button-link-color);
+.item-button:hover,
+.item-button:focus {
+    background-color: var(--button-link-color);
+    color: var(--background-header);
 }
 
 /*Cards*/
